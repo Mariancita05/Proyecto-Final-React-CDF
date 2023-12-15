@@ -3,14 +3,13 @@ import { useEffect, useState } from "react";
 import { CardCharacter } from "../components/CardCharacter";
 import "./Card.css";
 import CountsPage from "../components/CountsPage";
-import "./Search.css"
+import "./Search.css";
 
 const GenreCharacter = () => {
   const [characters, setCharacters] = useState([]);
   const [filteredCharacters, setFilteredCharacters] = useState([]);
   const [count, setCount] = useState(1);
   const [counts, setCounts] = useState(0);
-  
 
   useEffect(() => {
     const fetchData = async () => {
@@ -76,13 +75,15 @@ const GenreCharacter = () => {
             Reset
           </button>
         </div>
-        <CountsPage
-          count={count}
-          handleSuma={handleSuma}
-          handleResta={handleResta}
-        />
-
+          <CountsPage
+            count={count}
+            handleSuma={handleSuma}
+            handleResta={handleResta}
+          />
+        <div className="cantidad">
         <h3 className="contador">{counts} personajes</h3>
+        </div>
+
         <section className="cards">
           {filteredCharacters.map((character, id) => (
             <CardCharacter key={id} character={character} />

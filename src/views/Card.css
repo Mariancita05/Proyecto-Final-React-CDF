@@ -20,16 +20,13 @@ button {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-/*     margin-bottom: 30px;
-    margin-top: -50 px;*/
     border-radius: 50px;
     color: rgb(59, 182, 253);
     font-weight: 500;
     font-size: 30px;
     border: 0;
     box-shadow: 2px 2px 3px rgb(0, 135, 212);
-    font-family: 'Playpen Sans', cursive;     
-
+    font-family: 'Playpen Sans', cursive;  
 }
 
 button.suma {

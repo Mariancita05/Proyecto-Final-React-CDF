@@ -1,8 +1,9 @@
 div.container {
   background-color: white;
   opacity: 1;
+/*   height: 100vh;
+  width: 100%; */
 }
-
 
 .container-name-cards,
 .container-genre,
@@ -11,10 +12,15 @@ div.container {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+  background-repeat: no-repeat;
 }
 .container-name-cards{
   height: 100vh;
+}
+
+.container-genre{
+  height: 100vh;
+  width: 100%;
 }
 /* {
   background-image: url(../../public/img/losSimpsonSearch.jpg);
@@ -77,8 +83,13 @@ form button:hover {
   color: rgb(255, 255, 255);
 }
 
+
+
 @media (max-width: 700px) {
   .container-name {
+    height: auto;
+  }
+  .container-genre{
     height: auto;
   }
   .container-name-cards {

@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-/* import "../views/Card.css"; */
-/* import './cardCharacter.css' */
 import "./character.css";
 
 const Character = () => {

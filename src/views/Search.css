@@ -1,8 +1,6 @@
 div.container {
-  background-color: white;
   opacity: 1;
-/*   height: 100vh;
-  width: 100%; */
+  height: 100%;
 }
 
 .container-name-cards,
@@ -22,19 +20,6 @@ div.container {
   height: 100vh;
   width: 100%;
 }
-/* {
-  background-image: url(../../public/img/losSimpsonSearch.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
- {
-  background-image: url(../../public/img/losSimpsonSearch.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-} */
 
 form {
   display: flex;
@@ -83,8 +68,6 @@ form button:hover {
   color: rgb(255, 255, 255);
 }
 
-
-
 @media (max-width: 700px) {
   .container-name {
     height: auto;
@@ -93,7 +76,7 @@ form button:hover {
     height: auto;
   }
   .container-name-cards {
-    background-size: auto; /* Ajusta el tamaño de la imagen en pantallas más pequeñas */
+    background-size: auto; 
     background-position: top; 
   }
   form {
@@ -104,12 +87,10 @@ form button:hover {
   }
 
   form input {
-    /* margin: 15px 30px; */
     width: 70%;
   }
 
-  form button {
-    
+  form button {    
     width: 80%;
     padding: 10px;
   }

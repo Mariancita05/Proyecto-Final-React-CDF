@@ -32,9 +32,6 @@ const RandomCharacter = () => {
     <div className='bg'>
       <h1>LOS SIMPSONS</h1>
 
-      {/* <h3>{count}</h3>
-      <button className='suma' onClick={handleSuma}>+</button>
-      <button className='resta' onClick={handleResta} > - </button> */}
       <CountsPage count={count} handleSuma={handleSuma} handleResta={handleResta} />
       <section className='cards'>
         {character.map((character, id) => {

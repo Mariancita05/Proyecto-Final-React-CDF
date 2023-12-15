@@ -74,7 +74,6 @@ const Layout = () => {
             </li>
           </ul>
         </nav>
-        {/* <a href="#" className="hamb"><i class="fa-solid fa-burger-cheese"></i></a> */}
       </header>
       <main>
         <Outlet />

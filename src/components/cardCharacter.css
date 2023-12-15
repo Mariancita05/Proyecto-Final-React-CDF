@@ -17,7 +17,6 @@
     height: 150px;
     aspect-ratio: 372;
     object-fit: contain;
-    /* margin-top: -10px; */
     align-items: center;
     display: flex;
 }
@@ -25,8 +24,6 @@
 .nombre{
     width: 100%;
     margin: 15px 15px 20px 15px;
-    /* margin-bottom: 20px;
-    mar */
     text-align: center;
     text-decoration: none;
     color: red;    
@@ -36,7 +33,6 @@
     width: 100%;
     margin-top: 15px;
     margin-bottom: 20px;
-    /* height: 150px; */
     text-align: center;
     text-decoration: none;
     color: green;    

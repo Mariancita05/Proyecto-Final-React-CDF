@@ -4,9 +4,9 @@ div.container {
     align-items: center;
     justify-content: center;
     padding: 15px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     opacity: 1;
-    max-height: 100vh;
+    /* max-height: 100vh; */
 }
 
 .bg {
@@ -17,6 +17,7 @@ div.container {
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+    
 }
 
 .contenedor-btn-volver {
@@ -46,7 +47,8 @@ div.container {
 
 div.personaje {
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: white; */
     opacity: 0.9;
     box-shadow: 2px 2px 5px black;
     justify-content: left;
@@ -81,15 +83,17 @@ div.name-img {
 
 div.name-img img {
     margin-left: 10px;
-    height: 250px;
+    max-height: 250px;
     width: auto;
+    margin-bottom: 10px;
+    object-fit: contain;
 }
 
 div.name-img h3 {
     justify-content: center;
     display: flex;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 15px;
     margin-bottom: 15px;
 }
@@ -97,7 +101,7 @@ div.name-img h3 {
 div.info {
     max-width: 70%;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 30px;
     background-color: rgb(255, 230, 0);
     opacity: 1;
     color: green;

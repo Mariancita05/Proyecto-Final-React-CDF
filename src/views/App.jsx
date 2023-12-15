@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container-app">
-      <div className="bgApp">
+    <div className=" bgApp">
+      <div className="container-app">
         <h1 className="  titulo">LOS SIMPSONS</h1>
         <Link
           style={{ textDecoration: "none", color: "#fff" }}
